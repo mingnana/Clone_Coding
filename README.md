@@ -2,14 +2,13 @@
 
 * 💨[Canvas](https://mingnana.github.io/Clone_Cording/canvas/index.html) 
 * 강의 : 노마드코더 캔버스 클론코딩
+-
 
 📆 프로젝트 기간
 * 2022.02.05
 
-
 ⚙ 사용언어
 * HTML,CSS,Javascrip 
-
 
 🛠 구현 기능
 * 색깔 지정 후 캔버스에 그림 그리기 기능
@@ -26,10 +25,8 @@
 📆 프로젝트 기간
 * 2022.03.13
 
-
 ⚙ 사용언어
 * HTML,CSS,Javascrip 
-
 
 🛠 구현 기능
 * 힌트를 통해 지정된 단어를 맞추는 간단한 미니 워들게임
