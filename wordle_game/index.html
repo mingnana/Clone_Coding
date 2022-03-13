@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        input{
+            width:50px;
+            height:50px;
+            font-size:40px;
+            text-align:center;
+            margin-top:5px;
+            border:1px solid #ccc;
+            font-weight:700;
+            color:#aaa;
+        }
+    </style>
+    <input class="input">
+    <input class="input">
+    <input class="input">
+    <input class="input">
+    <input class="input">
+    <button>제출</button>
+    
+    <script>
+        var 답 = "abcde";
+        
+        
+        document.querySelector('button').addEventListener('click', 
+        function(){
+
+            var input = document.querySelectorAll('.input');
+
+            for (let i = 0; i<5; i++){
+                
+                if(input[i].value == 답[i]){
+                    input[i].style.background = '#CEF279';
+                } else if (답.includes(input[i].value)){
+                    input[i].style.background = '#FAED7D';
+                } else{
+                    input[i].style.background = '#eaeaea';
+                }
+
+                input[i].classList.remove('input');
+            }
+
+            var template = `<div>
+                <input class="input">
+                <input class="input">
+                <input class="input">
+                <input class="input">
+                <input class="input">
+            </div>`;
+            document.querySelector('body').insertAdjacentHTML
+            ('beforeend', template);
+        })
+    </script>
+</body>
+</html>
