@@ -2,6 +2,7 @@
 
 * 💨[Canvas](https://mingnana.github.io/Clone_Cording/canvas/index.html) 
 * 강의 : 노마드코더 캔버스 클론코딩
+
 -
 
 📆 프로젝트 기간
@@ -21,7 +22,9 @@
 
 * 💨[Wordle_game](https://mingnana.github.io/Clone_Cording/wordle_game/index.html) 
 * 강의 : 유튜브 코딩애플
-* 
+
+-
+
 📆 프로젝트 기간
 * 2022.03.13
 
