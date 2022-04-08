@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Nanum Gothic Coding', monospace;
+    src : url('NanumGothicCoding-Bold.woff') format('woff');
+}
+
+*{
+    font-family: 'Nanum Gothic Coding', monospace;
+    color: #fff;
+}
+
+html{
+    font-size:10px;
+}
+
+.wrap{
+    display:grid;
+    width: fit-content;
+    grid-template-columns: 2fr 1fr;
+    background-color: #008;
+    
+}
+
+.main-contents{
+    padding: 1vw;
+    
+}
+
+.side-contents{
+    padding:1vw;
+    font-size:1.6rem;
+    
+}
+
+.main-board{
+    border:2px solid white;
+}
+
+.next-board{
+    border :2px solid white;
+}
+
