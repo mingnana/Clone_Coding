@@ -5,22 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>clone-테트리스</title>
-    <link href="common.css" rel="stylesheet"/>
+    <link href="css/common.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div class="wrap">
-        <div class="main-contents">
-            <canvas id="main-board" class="main-board"></canvas>
+</style>
+
+    <body>
+        <div class="wrap">
+            <div class="main-contents">
+                <canvas id="main-board" class="main-board"></canvas>
+            </div>
+            <div id="side-contents" class="side-contents">
+                <p>
+                    <span id="title">테트리스</span>
+                </p>
+                <p>
+                    <span class="maker">출처: 상미넴</span>
+                </p>
+                <canvas id="next-board" class="next-board"></canvas>
+                <p>레벨: <span id="level">1</span> <span id="level-up" class="level-up"></span></p>
+                <p>라인: <span id="lines">0</span> <span id="remove-lines" class="remove-lines"></span></p>
+                <p>점수: <span id="score">0</span> <span id="add-score" class="add-score"></span></p>
+                <p>
+                    <span class="high-score-title">#최고점수</span><br>
+                    <span id="high-score">0</span>
+                </p>
+                <p>
+                    <button id="start-button" onclick="start()" class="start-button">게임 시작</button>
+                </p>
+                <p>
+                    <button id="quit-button" onclick="pressKey(27)" class="quit-button">게임 종료</button>
+                </p>
+                <p>
+                    <button id="pause-button" onclick="pressKey(80)" class="pause-button">일시 정지</button>
+                </p>
+                <p>
+                    <button id="toggle-keyset-button" onclick="toggleKeySet()" class="toggle-keyset-button">키셋 변경</button>
+                </p>
+                <p>
+                    <button id="toggle-sound-button" onclick="toggleSound()" class="toggle-sound-button">소리 끄기</button>
+                </p>
+            </div>
         </div>
-        <div id="side-contents" class="side-contents">
-            <canvas id="next-board" class="next-board"></canvas>
-            <p>레벨 : <span id="level"> 21</span></p>
-            <p>라인 : <span id="lines">10</span></p>
-            <p>점수 : <span id="score">0</span></p>
+        <div id="bottom-container" class="bottom-container">
+            <div id="keypad" class="keypad">
+                <div class="arrow-key-container">
+                    <div class="arrow-key-up-line">
+                        <button id="up-key" class="rotation-key" onclick="pressKey(38)">블럭 회전</button>
+                        <button id="down-key" class="down-key" onclick="pressKey(40)">살짝<br>내려</button>
+                    </div>
+                    <div class="arrow-key-down-line">
+                        <button id="left-key" class="arrow-key" onclick="pressKey(37)">←</button>
+                        <button id="right-key" class="arrow-key" onclick="pressKey(39)">→</button>                        
+                    </div>
+                </div>
+                <button id="space-key" class="space-key" onclick="pressKey(32)">드랍 더<br>블락!</button>
+            </div>
+            <div id="keypad2" class="keypad">
+                <div class="arrow-key-container2">
+                    <div class="arrow-key-up-line2">
+                        <button id="left-key" class="arrow-key2" onclick="pressKey(37)">←</button>
+                        <button id="right-key" class="arrow-key2" onclick="pressKey(39)">→</button>   
+                    </div>
+                    <div class="arrow-key-down-line2">
+                        <button id="space-key" class="space-key2" onclick="pressKey(32)">드랍 더 블락!</button>
+                        <button id="down-key" class="down-key2" onclick="pressKey(40)">살짝<br>내려</button>
+                    </div>
+                </div>
+                <button id="up-key" class="rotation-key2" onclick="pressKey(38)">블럭<br>회전</button>
+            </div>
         </div>
-    </div>
-    <script src="./main.js"></script>
-    <!-- <script src="./global.js"></script> -->
-</body>
+        <audio loop id='bgm' src='./resources/bgm.mp3'></audio>
+        <audio id='sound'></audio>
+        <script src='./js/common.js'></script>
+        <script src='./js/matrix.js'></script>
+        <script src='./js/move.js'></script>
+        <script src='./js/draw.js'></script>
+        <script src='./js/global.js'></script>
+        <script src='./js/main.js'></script>
+    </body>
 </html>

@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'Nanum Gothic Coding', monospace;
+    src : url('NanumGothicCoding-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'NeoDungGeunMo';
+    background-color: darkblue;
+    color: white;
+    touch-action: manipulation;
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    user-select:none;
+}
+
+html {
+    font-size: 10px;
+}
+
+.maker {
+    color: gold;
+}
+
+.wrap {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: fit-content;
+}
+
+.main-contents {
+    padding: 1vw;
+}
+
+.side-contents {
+    padding: 1vw;
+    font-size: 1.6rem;
+}
+
+.main-board {
+    border: 2px solid white;
+}
+
+.next-board {
+    border: 2px solid white;
+}
+
+.remove-lines {
+    color: #ffa4ff;
+}
+
+.level-up {
+    color: #ffdb76;
+}
+
+.add-score {
+    color: #a4c4ff;
+}
+
+.high-score-title {
+    color: #ffa3a3;
+}
+
+.start-button {
+    background-color: #227aec;
+    border: 2px solid #1d42e6;
+    color: #d7e5ff;
+    text-align: center;
+}
+
+.quit-button {
+    background-color: #e4a656;
+    border: 2px solid #d36a15;
+    color: #4e3513;
+    text-align: center;
+}
+
+.pause-button {
+    background-color: #33ce24;
+    border: 2px solid #408d0d;
+    color: #194d09;
+    text-align: center;
+}
+
+.toggle-keyset-button {
+    background-color: #d32faf;
+    border: 2px solid #9b0987;
+    color: #d7e5ff;
+    text-align: center;
+}
+
+.toggle-sound-button {
+    background-color: #e7c03e;
+    border: 2px solid #c79409;
+    color: #7e5600;
+    text-align: center;
+}
+
+.bottom-container {
+    display: grid;
+    width: 97vw;
+    height: 27vh;
+    grid-template-rows: 2fr 1fr;
+    max-width: 660px;
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns:2fr 1fr;
+}
+
+.arrow-key-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.arrow-key-up-line {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.arrow-key-down-line {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.arrow-key {
+    border: 2px solid #1f0d83;
+    background-color: #ddd7ff;
+    color: #1f0d83;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 9vh;
+}
+
+.rotation-key {
+    border: 2px solid #1f0d83;
+    background-color: #ddd7ff;
+    color: #1f0d83;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 9vh;
+}
+
+.down-key {
+    border: 2px solid #1f0d83;
+    background-color: #ddd7ff;
+    color: #1f0d83;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 9vh;
+}
+
+.space-key {
+    border: 2px solid #1f0d83;
+    background-color: #ddd7ff;
+    color: #1f0d83;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 18vh;
+}
+
+/* 키셋 추가 */
+.arrow-key-container2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.arrow-key-up-line2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.arrow-key-down-line2 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.arrow-key2 {
+    border: 2px solid #1f0d83;
+    background-color: #ddd7ff;
+    color: #1f0d83;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 9vh;
+}
+
+.rotation-key2 {
+    border: 2px solid #1f0d83;
+    background-color: #ddd7ff;
+    color: #1f0d83;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 18vh;
+}
+
+.down-key2 {
+    border: 2px solid #1f0d83;
+    background-color: #ddd7ff;
+    color: #1f0d83;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 9vh;
+}
+
+.space-key2 {
+    border: 2px solid #1f0d83;
+    background-color: #ddd7ff;
+    color: #1f0d83;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 9vh;
+}
