@@ -1,9 +1,10 @@
-# Clone_coding
+# Clone_coding(파란색 title 클릭시 각 index로 이동합니다.)
 
 ---
 
-* 💨[Canvas](https://mingnana.github.io/Clone_Coding/canvas/index.html) 
-* 강의 : 노마드코더 캔버스 클론코딩 
+
+### 💨[Canvas](https://mingnana.github.io/Clone_Coding/canvas/index.html)
+강의 : 노마드코더 캔버스 클론코딩 
 
 ---
 
@@ -22,8 +23,8 @@
 
 ***
 
-* 💨[Wordle_game](https://mingnana.github.io/Clone_Coding/wordle_game/index.html) 
-* 강의 : 유튜브 코딩애플
+### 💨[Wordle_game](https://mingnana.github.io/Clone_Coding/wordle_game/index.html) 
+강의 : 유튜브 코딩애플
 
 ***
 
@@ -41,8 +42,8 @@
 
 ***
 
-* 💨[Tetris](https://mingnana.github.io/Clone_Coding/tetris/index.html) 
-* 출처 : https://sangminem.tistory.com/37 (&copy;상미넴)
+### 💨[Tetris](https://mingnana.github.io/Clone_Coding/tetris/index.html) 
+출처 : https://sangminem.tistory.com/37 (&copy;상미넴)
 
 ***
 
@@ -56,4 +57,3 @@
 * 힌트를 통해 지정된 단어를 맞추는 간단한 미니 워들게임
 * 지정된 단어가 위치와 같거나(if), 단어는 맞으나 위치가 틀리거나 (elseif), 위치도 단어도 틀릴경우(else) 그에 따른 색상 표현 기능
 * 제출 버튼 클릭시 아래로 빈칸이 생성되는 기능
-
