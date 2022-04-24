@@ -31,11 +31,29 @@
 * 2022.03.13
 
 ⚙ 사용언어
-* HTML,CSS,Javascrip 
+* HTML,CSS,Javascript
 
 🛠 구현 기능
 * 힌트를 통해 지정된 단어를 맞추는 간단한 미니 워들게임
 * 지정된 단어가 위치와 같거나(if), 단어는 맞으나 위치가 틀리거나 (elseif), 위치도 단어도 틀릴경우(else) 그에 따른 색상 표현 기능
 * 제출 버튼 클릭시 아래로 빈칸이 생성되는 기능
 
+
+***
+
+* 💨[Tetris](https://mingnana.github.io/Clone_Cording/tetris/index.html) 
+* 출처 : https://sangminem.tistory.com/37 (&copy;상미넴)
+
+***
+
+📆 프로젝트 기간
+* 2022.04.01 ~ 04.24
+
+⚙ 사용언어
+* HTML,CSS,Javascript 
+
+🛠 구현 기능
+* 힌트를 통해 지정된 단어를 맞추는 간단한 미니 워들게임
+* 지정된 단어가 위치와 같거나(if), 단어는 맞으나 위치가 틀리거나 (elseif), 위치도 단어도 틀릴경우(else) 그에 따른 색상 표현 기능
+* 제출 버튼 클릭시 아래로 빈칸이 생성되는 기능
 
