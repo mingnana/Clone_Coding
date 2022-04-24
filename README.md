@@ -2,7 +2,7 @@
 
 ---
 
-* 💨[Canvas](https://mingnana.github.io/Clone_Cording/canvas/index.html) 
+* 💨[Canvas](https://mingnana.github.io/Clone_Coding/canvas/index.html) 
 * 강의 : 노마드코더 캔버스 클론코딩 
 
 ---
@@ -22,7 +22,7 @@
 
 ***
 
-* 💨[Wordle_game](https://mingnana.github.io/Clone_Cording/wordle_game/index.html) 
+* 💨[Wordle_game](https://mingnana.github.io/Clone_Coding/wordle_game/index.html) 
 * 강의 : 유튜브 코딩애플
 
 ***
@@ -41,7 +41,7 @@
 
 ***
 
-* 💨[Tetris](https://mingnana.github.io/Clone_Cording/tetris/index.html) 
+* 💨[Tetris](https://mingnana.github.io/Clone_Coding/tetris/index.html) 
 * 출처 : https://sangminem.tistory.com/37 (&copy;상미넴)
 
 ***
